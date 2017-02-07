@@ -9,7 +9,7 @@ header("location:index.php");
 <?php
 $message="";
 $message1=true;
-//echo $_SESSION["otp"];
+
 if(count($_POST)){
 
 
@@ -66,7 +66,7 @@ else{
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Submit An Idea, Start Up Amaravathi">
     <meta name="author" content="Start Up Amaravathi">
-	<title>Submit An Idea | Start Up Amaravathi</title>
+	<title>Submit An Idea </title>
 
 	<!-- Standard Favicon -->
 	<link rel="icon" type="image/x-icon" href="images/favicon.ico" />
